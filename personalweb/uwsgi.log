@@ -1,0 +1,867 @@
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 17:43:03 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 22:18:51 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Mar 14 2019, 16:33:48)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0x1417cd0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1458400 bytes (1424 KB) for 20 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0x1417cd0 pid: 14548 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 14548, cores: 1)
+spawned uWSGI worker 2 (pid: 14550, cores: 1)
+spawned uWSGI worker 3 (pid: 14551, cores: 1)
+spawned uWSGI worker 4 (pid: 14552, cores: 1)
+spawned uWSGI worker 5 (pid: 14553, cores: 1)
+spawned uWSGI worker 6 (pid: 14554, cores: 1)
+spawned uWSGI worker 7 (pid: 14555, cores: 1)
+spawned uWSGI worker 8 (pid: 14556, cores: 1)
+spawned uWSGI worker 9 (pid: 14557, cores: 1)
+spawned uWSGI worker 10 (pid: 14558, cores: 1)
+spawned uWSGI worker 11 (pid: 14559, cores: 1)
+spawned uWSGI worker 12 (pid: 14560, cores: 1)
+spawned uWSGI worker 13 (pid: 14561, cores: 1)
+spawned uWSGI worker 14 (pid: 14562, cores: 1)
+spawned uWSGI worker 15 (pid: 14563, cores: 1)
+spawned uWSGI worker 16 (pid: 14564, cores: 1)
+spawned uWSGI worker 17 (pid: 14565, cores: 1)
+spawned uWSGI worker 18 (pid: 14566, cores: 1)
+spawned uWSGI worker 19 (pid: 14567, cores: 1)
+spawned uWSGI worker 20 (pid: 14568, cores: 1)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 1/1] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:18:57 2019] GET / => generated 55171 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 1/2] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:18:57 2019] GET /favicon.ico => generated 55386 bytes in 44 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 2/3] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:19:07 2019] GET / => generated 55171 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 2/4] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:19:07 2019] GET /favicon.ico => generated 55386 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 3/5] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:19:08 2019] GET / => generated 55171 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 3/6] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:19:08 2019] GET /favicon.ico => generated 55386 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 4/7] 120.85.87.179 () {40 vars in 693 bytes} [Thu Mar 14 14:19:22 2019] GET / => generated 55036 bytes in 46 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 4/8] 120.85.87.179 () {40 vars in 672 bytes} [Thu Mar 14 14:19:22 2019] GET /favicon.ico => generated 55125 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 5/9] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:19:58 2019] GET / => generated 55171 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 5/10] 120.85.87.179 () {40 vars in 672 bytes} [Thu Mar 14 14:19:59 2019] GET /favicon.ico => generated 55125 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 22:21:54 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 6/11] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:22:10 2019] GET / => generated 55171 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 6/12] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:22:11 2019] GET /favicon.ico => generated 55386 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 7/13] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:22:19 2019] GET / => generated 55171 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 7/14] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:22:19 2019] GET /favicon.ico => generated 55386 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 8/15] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:22:26 2019] GET / => generated 55171 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 8/16] 120.85.87.179 () {40 vars in 672 bytes} [Thu Mar 14 14:22:26 2019] GET /favicon.ico => generated 55125 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 9/17] 112.60.1.124 () {42 vars in 720 bytes} [Thu Mar 14 14:22:52 2019] GET / => generated 55195 bytes in 75 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Bad Request: /
+[pid: 14557|app: 0|req: 1/18] 113.96.219.248 () {46 vars in 1393 bytes} [Thu Mar 14 14:22:52 2019] GET /?nsukey=fWFaVL4xzzB7N3q2FNDJlbkQ01FoCCj2FTlCBZSOxbgZuGhROrVs2u1dbvJ3wNc5RVJiDyH85v36qHCgXTNuUjVWzHVb0te9zUQM2Y8lS7rp7plxUtD9V1l8E7Fii2Bt22F9wOb2ee5wVpdjKEm9Yj4wPzgi6Kg2Q8whObelbs2B2ImSn5Y6p1O6GfvjYDkJ9i2OGgh0fFl8HUYNHJh6Y2F2Bcw3D3D => generated 58262 bytes in 96 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Bad Request: /
+[pid: 14548|app: 0|req: 1/19] 58.250.137.193 () {42 vars in 722 bytes} [Thu Mar 14 14:22:52 2019] GET / => generated 55197 bytes in 93 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 10/20] 112.96.38.121 () {38 vars in 1149 bytes} [Thu Mar 14 14:22:53 2019] GET /?nsukey=fWFaVL4xzzB7N3q%2FNDJlbkQ01FoCCj%2FTlCBZSOxbgZuGhROrVs2u1dbvJ3wNc5RVJiDyH85v36qHCgXTNuUjVWzHVb0te9zUQM2Y8lS7rp7plxUtD9V1l8E7Fii2Bt2%2F9wOb2ee5wVpdjKEm9Yj4wPzgi6Kg2Q8whObelbs2B2ImSn5Y6p1O6GfvjYDkJ9i2OGgh0fFl8HUYNHJh6Y%2F%2Bcw%3D%3D => generated 57329 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 11/21] 61.151.178.164 () {36 vars in 637 bytes} [Thu Mar 14 14:23:50 2019] GET / => generated 54784 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14554|app: 0|req: 9/22] 61.129.6.174 () {36 vars in 1063 bytes} [Thu Mar 14 14:23:51 2019] GET /?nsukey=fWFaVL4xzzB7N3q%2FNDJlbkQ01FoCCj%2FTlCBZSOxbgZuGhROrVs2u1dbvJ3wNc5RVJiDyH85v36qHCgXTNuUjVWzHVb0te9zUQM2Y8lS7rp7plxUtD9V1l8E7Fii2Bt2%2F9wOb2ee5wVpdjKEm9Yj4wPzgi6Kg2Q8whObelbs2B2ImSn5Y6p1O6GfvjYDkJ9i2OGgh0fFl8HUYNHJh6Y%2F%2Bcw%3D%3D => generated 57139 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 12/23] 61.151.178.197 () {40 vars in 651 bytes} [Thu Mar 14 14:23:53 2019] GET / => generated 54994 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 22:27:24 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 13/24] 120.85.87.179 () {42 vars in 719 bytes} [Thu Mar 14 14:27:31 2019] GET / => generated 55166 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 10/25] 120.85.87.179 () {44 vars in 720 bytes} [Thu Mar 14 14:27:31 2019] GET /favicon.ico => generated 55381 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 14/26] 120.85.87.179 () {42 vars in 719 bytes} [Thu Mar 14 14:27:33 2019] GET / => generated 55166 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 11/27] 120.85.87.179 () {44 vars in 720 bytes} [Thu Mar 14 14:27:33 2019] GET /favicon.ico => generated 55381 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 15/28] 120.85.87.179 () {42 vars in 719 bytes} [Thu Mar 14 14:27:33 2019] GET / => generated 55166 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14561|app: 0|req: 16/29] 120.85.87.179 () {44 vars in 720 bytes} [Thu Mar 14 14:27:33 2019] GET /favicon.ico => generated 55381 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14554|app: 0|req: 12/30] 120.85.87.179 () {42 vars in 719 bytes} [Thu Mar 14 14:27:33 2019] GET / => generated 55166 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 17/31] 120.85.87.179 () {42 vars in 719 bytes} [Thu Mar 14 14:27:34 2019] GET / => generated 55166 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14561|app: 0|req: 18/32] 120.85.87.179 () {44 vars in 720 bytes} [Thu Mar 14 14:27:34 2019] GET /favicon.ico => generated 55381 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 19/33] 120.85.87.179 () {40 vars in 688 bytes} [Thu Mar 14 14:27:49 2019] GET / => generated 55031 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14561|app: 0|req: 20/34] 120.85.87.179 () {40 vars in 667 bytes} [Thu Mar 14 14:27:50 2019] GET /favicon.ico => generated 55120 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Forbidden (CSRF cookie not set.): /
+[pid: 14561|app: 0|req: 21/35] 167.88.180.89 () {34 vars in 2468 bytes} [Thu Mar 14 14:30:00 2019] PROPFIND / => generated 2868 bytes in 12 msecs (HTTP/1.1 403) 3 headers in 102 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159:80'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /webdav/
+[pid: 14561|app: 0|req: 22/36] 167.88.180.89 () {32 vars in 375 bytes} [Thu Mar 14 14:30:00 2019] GET /webdav/ => generated 54384 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /App9f2acc81.php
+[pid: 14561|app: 0|req: 23/37] 167.88.180.89 () {34 vars in 532 bytes} [Thu Mar 14 14:30:01 2019] GET /App9f2acc81.php => generated 54713 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /help.php
+[pid: 14561|app: 0|req: 24/38] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:01 2019] GET /help.php => generated 54629 bytes in 56 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /_query.php
+[pid: 14561|app: 0|req: 25/39] 167.88.180.89 () {34 vars in 522 bytes} [Thu Mar 14 14:30:04 2019] GET /_query.php => generated 54653 bytes in 47 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /test.php
+[pid: 14554|app: 0|req: 13/40] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:04 2019] GET /test.php => generated 54629 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db_cts.php
+[pid: 14561|app: 0|req: 26/41] 167.88.180.89 () {34 vars in 522 bytes} [Thu Mar 14 14:30:04 2019] GET /db_cts.php => generated 54653 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db_pma.php
+[pid: 14554|app: 0|req: 14/42] 167.88.180.89 () {34 vars in 522 bytes} [Thu Mar 14 14:30:05 2019] GET /db_pma.php => generated 54653 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /logon.php
+[pid: 14561|app: 0|req: 27/43] 167.88.180.89 () {34 vars in 520 bytes} [Thu Mar 14 14:30:06 2019] GET /logon.php => generated 54641 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 22:30:11 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /log.php
+[pid: 14561|app: 0|req: 28/44] 167.88.180.89 () {34 vars in 516 bytes} [Thu Mar 14 14:30:15 2019] GET /log.php => generated 54617 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /hell.php
+[pid: 14554|app: 0|req: 15/45] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:16 2019] GET /hell.php => generated 54629 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pmd_online.php
+[pid: 14561|app: 0|req: 29/46] 167.88.180.89 () {34 vars in 530 bytes} [Thu Mar 14 14:30:16 2019] GET /pmd_online.php => generated 54701 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /x.php
+[pid: 14554|app: 0|req: 16/47] 167.88.180.89 () {34 vars in 512 bytes} [Thu Mar 14 14:30:17 2019] GET /x.php => generated 54593 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /htdocs.php
+[pid: 14561|app: 0|req: 30/48] 167.88.180.89 () {34 vars in 522 bytes} [Thu Mar 14 14:30:19 2019] GET /htdocs.php => generated 54653 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /z.php
+[pid: 14561|app: 0|req: 31/49] 167.88.180.89 () {34 vars in 512 bytes} [Thu Mar 14 14:30:24 2019] GET /z.php => generated 54593 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /lala.php
+[pid: 14554|app: 0|req: 17/50] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:25 2019] GET /lala.php => generated 54629 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /lala-dpr.php
+[pid: 14561|app: 0|req: 32/51] 167.88.180.89 () {34 vars in 526 bytes} [Thu Mar 14 14:30:26 2019] GET /lala-dpr.php => generated 54677 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /wpc.php
+[pid: 14554|app: 0|req: 18/52] 167.88.180.89 () {34 vars in 516 bytes} [Thu Mar 14 14:30:26 2019] GET /wpc.php => generated 54617 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /wpo.php
+[pid: 14561|app: 0|req: 33/53] 167.88.180.89 () {34 vars in 516 bytes} [Thu Mar 14 14:30:27 2019] GET /wpo.php => generated 54617 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /muhstik.php
+[pid: 14561|app: 0|req: 34/54] 167.88.180.89 () {34 vars in 524 bytes} [Thu Mar 14 14:30:31 2019] GET /muhstik.php => generated 54665 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /text.php
+[pid: 14554|app: 0|req: 19/55] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:32 2019] GET /text.php => generated 54629 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /muhstik2.php
+[pid: 14561|app: 0|req: 35/56] 167.88.180.89 () {34 vars in 526 bytes} [Thu Mar 14 14:30:39 2019] GET /muhstik2.php => generated 54677 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /muhstiks.php
+[pid: 14554|app: 0|req: 20/57] 167.88.180.89 () {34 vars in 526 bytes} [Thu Mar 14 14:30:41 2019] GET /muhstiks.php => generated 54677 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /muhstik-dpr.php
+[pid: 14561|app: 0|req: 36/58] 167.88.180.89 () {34 vars in 532 bytes} [Thu Mar 14 14:30:41 2019] GET /muhstik-dpr.php => generated 54713 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /lol.php
+[pid: 14554|app: 0|req: 21/59] 167.88.180.89 () {34 vars in 516 bytes} [Thu Mar 14 14:30:42 2019] GET /lol.php => generated 54617 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /uploader.php
+[pid: 14561|app: 0|req: 37/60] 167.88.180.89 () {34 vars in 526 bytes} [Thu Mar 14 14:30:42 2019] GET /uploader.php => generated 54677 bytes in 42 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /cmv.php
+[pid: 14561|app: 0|req: 38/61] 167.88.180.89 () {34 vars in 516 bytes} [Thu Mar 14 14:30:43 2019] GET /cmv.php => generated 54617 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /cmdd.php
+[pid: 14554|app: 0|req: 22/62] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:44 2019] GET /cmdd.php => generated 54629 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /knal.php
+[pid: 14561|app: 0|req: 39/63] 167.88.180.89 () {34 vars in 518 bytes} [Thu Mar 14 14:30:44 2019] GET /knal.php => generated 54629 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /cmd.php
+[pid: 14554|app: 0|req: 23/64] 167.88.180.89 () {34 vars in 516 bytes} [Thu Mar 14 14:30:46 2019] GET /cmd.php => generated 54617 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /shell.php
+[pid: 14561|app: 0|req: 40/65] 167.88.180.89 () {34 vars in 520 bytes} [Thu Mar 14 14:30:46 2019] GET /shell.php => generated 54641 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /appserv.php
+[pid: 14554|app: 0|req: 24/66] 167.88.180.89 () {34 vars in 524 bytes} [Thu Mar 14 14:30:46 2019] GET /appserv.php => generated 54665 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /scripts/setup.php
+[pid: 14561|app: 0|req: 41/67] 167.88.180.89 () {34 vars in 536 bytes} [Thu Mar 14 14:30:47 2019] GET /scripts/setup.php => generated 54737 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/scripts/db___.init.php
+[pid: 14561|app: 0|req: 42/68] 167.88.180.89 () {34 vars in 568 bytes} [Thu Mar 14 14:30:55 2019] GET /phpmyadmin/scripts/db___.init.php => generated 54929 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/scripts/db___.init.php
+[pid: 14554|app: 0|req: 25/69] 167.88.180.89 () {34 vars in 568 bytes} [Thu Mar 14 14:30:56 2019] GET /phpMyAdmin/scripts/db___.init.php => generated 54929 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /plugins/weathermap/editor.php
+[pid: 14561|app: 0|req: 43/70] 167.88.180.89 () {34 vars in 560 bytes} [Thu Mar 14 14:30:57 2019] GET /plugins/weathermap/editor.php => generated 54881 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /rxr.php
+[pid: 14561|app: 0|req: 44/71] 167.88.180.89 () {34 vars in 515 bytes} [Thu Mar 14 14:31:03 2019] GET /rxr.php => generated 54616 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /1x.php
+[pid: 14561|app: 0|req: 45/72] 167.88.180.89 () {34 vars in 513 bytes} [Thu Mar 14 14:31:07 2019] GET /1x.php => generated 54604 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /izom.php
+[pid: 14561|app: 0|req: 46/73] 167.88.180.89 () {34 vars in 517 bytes} [Thu Mar 14 14:31:23 2019] GET /izom.php => generated 54628 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /composer.php
+[pid: 14554|app: 0|req: 26/74] 167.88.180.89 () {34 vars in 525 bytes} [Thu Mar 14 14:31:24 2019] GET /composer.php => generated 54676 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /hue2.php
+[pid: 14561|app: 0|req: 47/75] 167.88.180.89 () {34 vars in 517 bytes} [Thu Mar 14 14:31:25 2019] GET /hue2.php => generated 54628 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /home.php
+[pid: 14561|app: 0|req: 48/76] 167.88.180.89 () {34 vars in 517 bytes} [Thu Mar 14 14:31:31 2019] GET /home.php => generated 54628 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /lang.php
+[pid: 14554|app: 0|req: 27/77] 167.88.180.89 () {34 vars in 525 bytes} [Thu Mar 14 14:31:32 2019] GET /lang.php?f=1 => generated 54941 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /libraries/joomla/jmails.php
+[pid: 14561|app: 0|req: 49/78] 167.88.180.89 () {34 vars in 571 bytes} [Thu Mar 14 14:31:35 2019] GET /libraries/joomla/jmails.php?waled=1 => generated 55205 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /libraries/joomla/wl.php
+[pid: 14554|app: 0|req: 28/79] 167.88.180.89 () {34 vars in 555 bytes} [Thu Mar 14 14:31:36 2019] GET /libraries/joomla/wl.php?0=1 => generated 55121 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /wuwu11.php
+[pid: 14561|app: 0|req: 50/80] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:31:36 2019] POST /wuwu11.php => generated 55219 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /xw1.php
+[pid: 14561|app: 0|req: 51/81] 167.88.180.89 () {38 vars in 587 bytes} [Thu Mar 14 14:31:40 2019] POST /xw1.php => generated 55183 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /9678.php
+[pid: 14554|app: 0|req: 29/82] 167.88.180.89 () {38 vars in 589 bytes} [Thu Mar 14 14:31:40 2019] POST /9678.php => generated 55195 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /wc.php
+[pid: 14561|app: 0|req: 52/83] 167.88.180.89 () {38 vars in 585 bytes} [Thu Mar 14 14:31:41 2019] POST /wc.php => generated 55171 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /s.php
+[pid: 14561|app: 0|req: 53/84] 167.88.180.89 () {38 vars in 583 bytes} [Thu Mar 14 14:31:43 2019] POST /s.php => generated 55162 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /w.php
+[pid: 14554|app: 0|req: 30/85] 167.88.180.89 () {38 vars in 583 bytes} [Thu Mar 14 14:31:44 2019] POST /w.php => generated 55162 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /qaq.php
+[pid: 14561|app: 0|req: 54/86] 167.88.180.89 () {38 vars in 587 bytes} [Thu Mar 14 14:31:48 2019] POST /qaq.php => generated 55183 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db.init.php
+[pid: 14554|app: 0|req: 31/87] 167.88.180.89 () {38 vars in 595 bytes} [Thu Mar 14 14:31:49 2019] POST /db.init.php => generated 55234 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db_session.init.php
+[pid: 14561|app: 0|req: 55/88] 167.88.180.89 () {38 vars in 611 bytes} [Thu Mar 14 14:31:49 2019] POST /db_session.init.php => generated 55330 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db__.init.php
+[pid: 14561|app: 0|req: 56/89] 167.88.180.89 () {38 vars in 599 bytes} [Thu Mar 14 14:31:50 2019] POST /db__.init.php => generated 55258 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /wp-admins.php
+[pid: 14554|app: 0|req: 32/90] 167.88.180.89 () {38 vars in 599 bytes} [Thu Mar 14 14:31:50 2019] POST /wp-admins.php => generated 55504 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /Alarg53.php
+[pid: 14561|app: 0|req: 57/91] 167.88.180.89 () {38 vars in 595 bytes} [Thu Mar 14 14:32:03 2019] POST /Alarg53.php => generated 55480 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /lapan.php
+[pid: 14554|app: 0|req: 33/92] 167.88.180.89 () {38 vars in 591 bytes} [Thu Mar 14 14:32:04 2019] POST /lapan.php => generated 55456 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /p34ky1337.php
+[pid: 14561|app: 0|req: 58/93] 167.88.180.89 () {38 vars in 599 bytes} [Thu Mar 14 14:32:04 2019] POST /p34ky1337.php => generated 55504 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pk1914.php
+[pid: 14554|app: 0|req: 34/94] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:05 2019] POST /pk1914.php => generated 55468 bytes in 42 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /sllolx.php
+[pid: 14561|app: 0|req: 59/95] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:05 2019] POST /sllolx.php => generated 55468 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /Skri.php
+[pid: 14561|app: 0|req: 60/96] 167.88.180.89 () {38 vars in 589 bytes} [Thu Mar 14 14:32:07 2019] POST /Skri.php => generated 55444 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db_dataml.php
+[pid: 14554|app: 0|req: 35/97] 167.88.180.89 () {38 vars in 599 bytes} [Thu Mar 14 14:32:08 2019] POST /db_dataml.php => generated 55255 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /db_desql.php
+[pid: 14561|app: 0|req: 61/98] 167.88.180.89 () {38 vars in 597 bytes} [Thu Mar 14 14:32:09 2019] POST /db_desql.php => generated 55243 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mx.php
+[pid: 14561|app: 0|req: 62/99] 167.88.180.89 () {38 vars in 585 bytes} [Thu Mar 14 14:32:09 2019] POST /mx.php => generated 55172 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /wshell.php
+[pid: 14554|app: 0|req: 36/100] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:10 2019] POST /wshell.php => generated 55221 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /qq.php
+[pid: 14561|app: 0|req: 63/101] 167.88.180.89 () {38 vars in 585 bytes} [Thu Mar 14 14:32:12 2019] POST /qq.php => generated 55171 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /conflg.php
+[pid: 14554|app: 0|req: 37/102] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:12 2019] POST /conflg.php => generated 55224 bytes in 46 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /conflg.php
+[pid: 14561|app: 0|req: 64/103] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:12 2019] POST /conflg.php => generated 55229 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /lindex.php
+[pid: 14554|app: 0|req: 38/104] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:13 2019] POST /lindex.php => generated 55224 bytes in 39 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpstudy.php
+[pid: 14561|app: 0|req: 65/105] 167.88.180.89 () {38 vars in 597 bytes} [Thu Mar 14 14:32:13 2019] POST /phpstudy.php => generated 55243 bytes in 44 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpStudy.php
+[pid: 14554|app: 0|req: 39/106] 167.88.180.89 () {38 vars in 597 bytes} [Thu Mar 14 14:32:14 2019] POST /phpStudy.php => generated 55243 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /weixiao.php
+[pid: 14561|app: 0|req: 66/107] 167.88.180.89 () {38 vars in 595 bytes} [Thu Mar 14 14:32:14 2019] POST /weixiao.php => generated 55237 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /feixiang.php
+[pid: 14554|app: 0|req: 40/108] 167.88.180.89 () {38 vars in 597 bytes} [Thu Mar 14 14:32:15 2019] POST /feixiang.php => generated 55250 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /ak47.php
+[pid: 14561|app: 0|req: 67/109] 167.88.180.89 () {38 vars in 589 bytes} [Thu Mar 14 14:32:16 2019] POST /ak47.php => generated 55203 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /xiao.php
+[pid: 14561|app: 0|req: 68/110] 167.88.180.89 () {38 vars in 589 bytes} [Thu Mar 14 14:32:23 2019] POST /xiao.php => generated 55198 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /defect.php
+[pid: 14554|app: 0|req: 41/111] 167.88.180.89 () {38 vars in 593 bytes} [Thu Mar 14 14:32:28 2019] POST /defect.php => generated 55224 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /webslee.php
+[pid: 14561|app: 0|req: 69/112] 167.88.180.89 () {38 vars in 595 bytes} [Thu Mar 14 14:32:28 2019] POST /webslee.php => generated 55234 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /q.php
+[pid: 14554|app: 0|req: 42/113] 167.88.180.89 () {38 vars in 583 bytes} [Thu Mar 14 14:32:28 2019] POST /q.php => generated 55163 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pe.php
+[pid: 14561|app: 0|req: 70/114] 167.88.180.89 () {38 vars in 585 bytes} [Thu Mar 14 14:32:29 2019] POST /pe.php => generated 55174 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /hm.php
+[pid: 14561|app: 0|req: 71/115] 167.88.180.89 () {38 vars in 585 bytes} [Thu Mar 14 14:32:30 2019] POST /hm.php => generated 55172 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /cainiao.php
+[pid: 14554|app: 0|req: 43/116] 167.88.180.89 () {38 vars in 595 bytes} [Thu Mar 14 14:32:31 2019] POST /cainiao.php => generated 55238 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /zuoshou.php
+[pid: 14561|app: 0|req: 72/117] 167.88.180.89 () {38 vars in 595 bytes} [Thu Mar 14 14:32:32 2019] POST /zuoshou.php => generated 55233 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /zuo.php
+[pid: 14554|app: 0|req: 44/118] 167.88.180.89 () {38 vars in 587 bytes} [Thu Mar 14 14:32:32 2019] POST /zuo.php => generated 55185 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /aotu.php
+[pid: 14561|app: 0|req: 73/119] 167.88.180.89 () {38 vars in 589 bytes} [Thu Mar 14 14:32:33 2019] POST /aotu.php => generated 55201 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /aotu7.php
+[pid: 14554|app: 0|req: 45/120] 167.88.180.89 () {38 vars in 591 bytes} [Thu Mar 14 14:32:33 2019] POST /aotu7.php => generated 55213 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /index.php
+[pid: 14561|app: 0|req: 74/121] 167.88.180.89 () {34 vars in 520 bytes} [Thu Mar 14 14:32:35 2019] GET /index.php => generated 54641 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/index.php
+[pid: 14554|app: 0|req: 46/122] 167.88.180.89 () {34 vars in 542 bytes} [Thu Mar 14 14:32:36 2019] GET /phpmyadmin/index.php => generated 54773 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/index.php
+[pid: 14561|app: 0|req: 75/123] 167.88.180.89 () {34 vars in 542 bytes} [Thu Mar 14 14:32:36 2019] GET /phpMyAdmin/index.php => generated 54773 bytes in 42 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pmd/index.php
+[pid: 14554|app: 0|req: 47/124] 167.88.180.89 () {34 vars in 528 bytes} [Thu Mar 14 14:32:37 2019] GET /pmd/index.php => generated 54689 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pma/index.php
+[pid: 14561|app: 0|req: 76/125] 167.88.180.89 () {34 vars in 528 bytes} [Thu Mar 14 14:32:38 2019] GET /pma/index.php => generated 54689 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /PMA/index.php
+[pid: 14554|app: 0|req: 48/126] 167.88.180.89 () {34 vars in 528 bytes} [Thu Mar 14 14:32:38 2019] GET /PMA/index.php => generated 54689 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /PMA2/index.php
+[pid: 14561|app: 0|req: 77/127] 167.88.180.89 () {34 vars in 530 bytes} [Thu Mar 14 14:32:39 2019] GET /PMA2/index.php => generated 54701 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pmamy/index.php
+[pid: 14554|app: 0|req: 49/128] 167.88.180.89 () {34 vars in 532 bytes} [Thu Mar 14 14:32:40 2019] GET /pmamy/index.php => generated 54713 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mysql/index.php
+[pid: 14561|app: 0|req: 78/129] 167.88.180.89 () {34 vars in 532 bytes} [Thu Mar 14 14:32:47 2019] GET /mysql/index.php => generated 54713 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/index.php
+[pid: 14554|app: 0|req: 50/130] 167.88.180.89 () {34 vars in 532 bytes} [Thu Mar 14 14:32:48 2019] GET /admin/index.php => generated 54713 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /dbadmin/index.php
+[pid: 14561|app: 0|req: 79/131] 167.88.180.89 () {34 vars in 536 bytes} [Thu Mar 14 14:32:51 2019] GET /dbadmin/index.php => generated 54737 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /web/phpMyAdmin/index.php
+[pid: 14554|app: 0|req: 51/132] 167.88.180.89 () {34 vars in 550 bytes} [Thu Mar 14 14:32:52 2019] GET /web/phpMyAdmin/index.php => generated 54821 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/pma/index.php
+[pid: 14561|app: 0|req: 80/133] 167.88.180.89 () {34 vars in 540 bytes} [Thu Mar 14 14:32:52 2019] GET /admin/pma/index.php => generated 54761 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/PMA/index.php
+[pid: 14554|app: 0|req: 52/134] 167.88.180.89 () {34 vars in 540 bytes} [Thu Mar 14 14:32:53 2019] GET /admin/PMA/index.php => generated 54761 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/mysql/index.php
+[pid: 14561|app: 0|req: 81/135] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:32:53 2019] GET /admin/mysql/index.php => generated 54785 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/mysql2/index.php
+[pid: 14561|app: 0|req: 82/136] 167.88.180.89 () {34 vars in 546 bytes} [Thu Mar 14 14:32:55 2019] GET /admin/mysql2/index.php => generated 54797 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/phpmyadmin/index.php
+[pid: 14554|app: 0|req: 53/137] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:32:56 2019] GET /admin/phpmyadmin/index.php => generated 54845 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /admin/phpMyAdmin/index.php
+[pid: 14561|app: 0|req: 83/138] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:32:56 2019] GET /admin/phpMyAdmin/index.php => generated 54845 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mysqladmin/index.php
+[pid: 14561|app: 0|req: 84/139] 167.88.180.89 () {34 vars in 542 bytes} [Thu Mar 14 14:32:59 2019] GET /mysqladmin/index.php => generated 54773 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mysql-admin/index.php
+[pid: 14554|app: 0|req: 54/140] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:00 2019] GET /mysql-admin/index.php => generated 54785 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpadmin/index.php
+[pid: 14561|app: 0|req: 85/141] 167.88.180.89 () {34 vars in 538 bytes} [Thu Mar 14 14:33:03 2019] GET /phpadmin/index.php => generated 54749 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpAdmin/index.php
+[pid: 14554|app: 0|req: 55/142] 167.88.180.89 () {34 vars in 538 bytes} [Thu Mar 14 14:33:04 2019] GET /phpAdmin/index.php => generated 54749 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin0/index.php
+[pid: 14561|app: 0|req: 86/143] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:04 2019] GET /phpmyadmin0/index.php => generated 54785 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin1/index.php
+[pid: 14554|app: 0|req: 56/144] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:05 2019] GET /phpmyadmin1/index.php => generated 54785 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin2/index.php
+[pid: 14561|app: 0|req: 87/145] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:05 2019] GET /phpmyadmin2/index.php => generated 54785 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin-4.4.0/index.php
+[pid: 14554|app: 0|req: 57/146] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:33:06 2019] GET /phpMyAdmin-4.4.0/index.php => generated 54845 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /myadmin/index.php
+[pid: 14561|app: 0|req: 88/147] 167.88.180.89 () {34 vars in 536 bytes} [Thu Mar 14 14:33:06 2019] GET /myadmin/index.php => generated 54737 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyadmin_bak/index.php
+[pid: 14561|app: 0|req: 89/148] 167.88.180.89 () {34 vars in 550 bytes} [Thu Mar 14 14:33:15 2019] GET /phpMyadmin_bak/index.php => generated 54821 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /www/phpMyAdmin/index.php
+[pid: 14554|app: 0|req: 58/149] 167.88.180.89 () {34 vars in 550 bytes} [Thu Mar 14 14:33:16 2019] GET /www/phpMyAdmin/index.php => generated 54821 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /tools/phpMyAdmin/index.php
+[pid: 14561|app: 0|req: 90/150] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:33:16 2019] GET /tools/phpMyAdmin/index.php => generated 54845 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdminold/index.php
+[pid: 14561|app: 0|req: 91/151] 167.88.180.89 () {34 vars in 548 bytes} [Thu Mar 14 14:33:19 2019] GET /phpMyAdminold/index.php => generated 54809 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin.old/index.php
+[pid: 14554|app: 0|req: 59/152] 167.88.180.89 () {34 vars in 550 bytes} [Thu Mar 14 14:33:21 2019] GET /phpMyAdmin.old/index.php => generated 54821 bytes in 28 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pma-old/index.php
+[pid: 14561|app: 0|req: 92/153] 167.88.180.89 () {34 vars in 536 bytes} [Thu Mar 14 14:33:21 2019] GET /pma-old/index.php => generated 54737 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /claroline/phpMyAdmin/index.php
+[pid: 14554|app: 0|req: 60/154] 167.88.180.89 () {34 vars in 562 bytes} [Thu Mar 14 14:33:21 2019] GET /claroline/phpMyAdmin/index.php => generated 54893 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /typo3/phpmyadmin/index.php
+[pid: 14561|app: 0|req: 93/155] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:33:22 2019] GET /typo3/phpmyadmin/index.php => generated 54845 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadmin/phpmyadmin/index.php
+[pid: 14561|app: 0|req: 94/156] 167.88.180.89 () {34 vars in 564 bytes} [Thu Mar 14 14:33:23 2019] GET /phpmyadmin/phpmyadmin/index.php => generated 54905 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin/phpMyAdmin/index.php
+[pid: 14554|app: 0|req: 61/157] 167.88.180.89 () {34 vars in 564 bytes} [Thu Mar 14 14:33:24 2019] GET /phpMyAdmin/phpMyAdmin/index.php => generated 54905 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAbmin/index.php
+[pid: 14561|app: 0|req: 95/158] 167.88.180.89 () {34 vars in 542 bytes} [Thu Mar 14 14:33:24 2019] GET /phpMyAbmin/index.php => generated 54773 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin__/index.php
+[pid: 14554|app: 0|req: 62/159] 167.88.180.89 () {34 vars in 546 bytes} [Thu Mar 14 14:33:25 2019] GET /phpMyAdmin__/index.php => generated 54797 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin+++---/index.php
+[pid: 14561|app: 0|req: 96/160] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:33:25 2019] GET /phpMyAdmin+++---/index.php => generated 54845 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /v/index.php
+[pid: 14554|app: 0|req: 63/161] 167.88.180.89 () {34 vars in 524 bytes} [Thu Mar 14 14:33:26 2019] GET /v/index.php => generated 54665 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmyadm1n/index.php
+[pid: 14561|app: 0|req: 97/162] 167.88.180.89 () {34 vars in 542 bytes} [Thu Mar 14 14:33:26 2019] GET /phpmyadm1n/index.php => generated 54773 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdm1n/index.php
+[pid: 14554|app: 0|req: 64/163] 167.88.180.89 () {34 vars in 542 bytes} [Thu Mar 14 14:33:27 2019] GET /phpMyAdm1n/index.php => generated 54773 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /shaAdmin/index.php
+[pid: 14561|app: 0|req: 98/164] 167.88.180.89 () {34 vars in 538 bytes} [Thu Mar 14 14:33:28 2019] GET /shaAdmin/index.php => generated 54749 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyadmi/index.php
+[pid: 14561|app: 0|req: 99/165] 167.88.180.89 () {34 vars in 540 bytes} [Thu Mar 14 14:33:28 2019] GET /phpMyadmi/index.php => generated 54761 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmion/index.php
+[pid: 14554|app: 0|req: 65/166] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:29 2019] GET /phpMyAdmion/index.php => generated 54785 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /s/index.php
+[pid: 14561|app: 0|req: 100/167] 167.88.180.89 () {34 vars in 524 bytes} [Thu Mar 14 14:33:29 2019] GET /s/index.php => generated 54665 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /MyAdmin/index.php
+[pid: 14561|app: 0|req: 101/168] 167.88.180.89 () {34 vars in 536 bytes} [Thu Mar 14 14:33:30 2019] GET /MyAdmin/index.php => generated 54737 bytes in 29 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin1/index.php
+[pid: 14554|app: 0|req: 66/169] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:30 2019] GET /phpMyAdmin1/index.php => generated 54785 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmin123/index.php
+[pid: 14561|app: 0|req: 102/170] 167.88.180.89 () {34 vars in 548 bytes} [Thu Mar 14 14:33:31 2019] GET /phpMyAdmin123/index.php => generated 54809 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /pwd/index.php
+[pid: 14554|app: 0|req: 67/171] 167.88.180.89 () {34 vars in 528 bytes} [Thu Mar 14 14:33:32 2019] GET /pwd/index.php => generated 54689 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMydmin/index.php
+[pid: 14561|app: 0|req: 103/172] 167.88.180.89 () {34 vars in 540 bytes} [Thu Mar 14 14:33:39 2019] GET /phpMydmin/index.php => generated 54761 bytes in 36 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpMyAdmins/index.php
+[pid: 14554|app: 0|req: 68/173] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:40 2019] GET /phpMyAdmins/index.php => generated 54785 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /program/index.php
+[pid: 14561|app: 0|req: 104/174] 167.88.180.89 () {34 vars in 536 bytes} [Thu Mar 14 14:33:40 2019] GET /program/index.php => generated 54737 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /shopdb/index.php
+[pid: 14561|app: 0|req: 105/175] 167.88.180.89 () {34 vars in 534 bytes} [Thu Mar 14 14:33:43 2019] GET /shopdb/index.php => generated 54725 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /phpmy/index.php
+[pid: 14561|app: 0|req: 106/176] 167.88.180.89 () {34 vars in 532 bytes} [Thu Mar 14 14:33:47 2019] GET /phpmy/index.php => generated 54713 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mysql/admin/index.php
+[pid: 14554|app: 0|req: 69/177] 167.88.180.89 () {34 vars in 544 bytes} [Thu Mar 14 14:33:49 2019] GET /mysql/admin/index.php => generated 54785 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mysql/dbadmin/index.php
+[pid: 14561|app: 0|req: 107/178] 167.88.180.89 () {34 vars in 548 bytes} [Thu Mar 14 14:33:49 2019] GET /mysql/dbadmin/index.php => generated 54809 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /mysql/sqlmanager/index.php
+[pid: 14561|app: 0|req: 108/179] 167.88.180.89 () {34 vars in 554 bytes} [Thu Mar 14 14:33:49 2019] GET /mysql/sqlmanager/index.php => generated 54845 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 109/180] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:39:39 2019] GET / => generated 55171 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14561|app: 0|req: 110/181] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:39:40 2019] GET /favicon.ico => generated 55386 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 111/182] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:48:57 2019] GET / => generated 55171 bytes in 34 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 70/183] 120.85.87.179 () {40 vars in 672 bytes} [Thu Mar 14 14:48:58 2019] GET /favicon.ico => generated 55125 bytes in 40 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 112/184] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:53:01 2019] GET / => generated 55171 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 71/185] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:53:02 2019] GET /favicon.ico => generated 55386 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 113/186] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:53:02 2019] GET / => generated 55171 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14561|app: 0|req: 114/187] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:53:02 2019] GET /favicon.ico => generated 55386 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 115/188] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:54:32 2019] GET / => generated 55171 bytes in 33 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 72/189] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:54:32 2019] GET /favicon.ico => generated 55386 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 22:55:23 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 116/190] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:55:27 2019] GET / => generated 55171 bytes in 43 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 73/191] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:55:28 2019] GET /favicon.ico => generated 55386 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 117/192] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:55:28 2019] GET / => generated 55171 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 74/193] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:55:29 2019] GET /favicon.ico => generated 55386 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 118/194] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:55:29 2019] GET / => generated 55171 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 75/195] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:55:29 2019] GET /favicon.ico => generated 55386 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 119/196] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:55:29 2019] GET / => generated 55171 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 76/197] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:55:30 2019] GET /favicon.ico => generated 55386 bytes in 35 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 120/198] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:55:32 2019] GET / => generated 55171 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 77/199] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:55:34 2019] GET /favicon.ico => generated 55386 bytes in 32 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 22:57:00 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+probably another instance of uWSGI is running on the same address (127.0.0.1:8000).
+bind(): Address already in use [core/socket.c line 769]
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 121/200] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:57:03 2019] GET / => generated 55171 bytes in 58 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 78/201] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:57:03 2019] GET /favicon.ico => generated 55386 bytes in 37 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 122/202] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:57:04 2019] GET / => generated 55171 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 79/203] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:57:04 2019] GET /favicon.ico => generated 55386 bytes in 30 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /
+[pid: 14561|app: 0|req: 123/204] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 14:57:04 2019] GET / => generated 55171 bytes in 31 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+Invalid HTTP_HOST header: '129.204.42.159'. You may need to add '129.204.42.159' to ALLOWED_HOSTS.
+Bad Request: /favicon.ico
+[pid: 14554|app: 0|req: 80/205] 120.85.87.179 () {44 vars in 725 bytes} [Thu Mar 14 14:57:05 2019] GET /favicon.ico => generated 55386 bytes in 38 msecs (HTTP/1.1 400) 1 headers in 53 bytes (1 switches on core 0)
+*** Starting uWSGI 2.0.18 (64bit) on [Thu Mar 14 23:01:06 2019] ***
+compiled with version: 4.8.5 20150623 (Red Hat 4.8.5-36) on 14 March 2019 08:42:50
+os: Linux-3.10.0-862.el7.x86_64 #1 SMP Fri Apr 20 16:44:24 UTC 2018
+nodename: VM_0_15_centos
+machine: x86_64
+clock source: unix
+pcre jit disabled
+detected number of CPU cores: 1
+current working directory: /root/web/personalweb
+detected binary path: /usr/local/python3/bin/uwsgi
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+chdir() to /root/web/personalweb
+*** WARNING: you are running uWSGI without its master process manager ***
+your processes number limit is 7272
+your memory page size is 4096 bytes
+detected max file descriptor number: 100001
+lock engine: pthread robust mutexes
+thunder lock: disabled (you can enable it with --thunder-lock)
+uwsgi socket 0 bound to TCP address 127.0.0.1:8000 fd 3
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+Python version: 3.6.3 (default, Mar 14 2019, 16:33:48)  [GCC 4.8.5 20150623 (Red Hat 4.8.5-36)]
+*** Python threads support is disabled. You can enable it with --enable-threads ***
+Python main interpreter initialized at 0xf45cf0
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+your server socket listen backlog is limited to 100 connections
+your mercy for graceful operations on workers is 60 seconds
+mapped 1458400 bytes (1424 KB) for 20 cores
+*** Operational MODE: preforking ***
+WSGI app 0 (mountpoint='') ready in 0 seconds on interpreter 0xf45cf0 pid: 18305 (default app)
+uWSGI running as root, you can use --uid/--gid/--chroot options
+*** WARNING: you are running uWSGI as root !!! (use the --uid flag) *** 
+*** uWSGI is running in multiple interpreter mode ***
+spawned uWSGI worker 1 (pid: 18305, cores: 1)
+spawned uWSGI worker 2 (pid: 18307, cores: 1)
+spawned uWSGI worker 3 (pid: 18308, cores: 1)
+spawned uWSGI worker 4 (pid: 18309, cores: 1)
+spawned uWSGI worker 5 (pid: 18310, cores: 1)
+spawned uWSGI worker 6 (pid: 18311, cores: 1)
+spawned uWSGI worker 7 (pid: 18312, cores: 1)
+spawned uWSGI worker 8 (pid: 18313, cores: 1)
+spawned uWSGI worker 9 (pid: 18314, cores: 1)
+spawned uWSGI worker 10 (pid: 18315, cores: 1)
+spawned uWSGI worker 11 (pid: 18316, cores: 1)
+spawned uWSGI worker 12 (pid: 18317, cores: 1)
+spawned uWSGI worker 13 (pid: 18318, cores: 1)
+spawned uWSGI worker 14 (pid: 18319, cores: 1)
+spawned uWSGI worker 15 (pid: 18320, cores: 1)
+spawned uWSGI worker 16 (pid: 18321, cores: 1)
+spawned uWSGI worker 17 (pid: 18322, cores: 1)
+spawned uWSGI worker 18 (pid: 18323, cores: 1)
+spawned uWSGI worker 19 (pid: 18324, cores: 1)
+spawned uWSGI worker 20 (pid: 18325, cores: 1)
+Not Found: /favicon.ico
+[pid: 18324|app: 0|req: 1/1] 120.85.87.179 () {40 vars in 672 bytes} [Thu Mar 14 15:01:21 2019] GET /favicon.ico => generated 2124 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18322|app: 0|req: 1/2] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 15:01:22 2019] GET / => generated 5856 bytes in 20 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /navbar-top.css
+[pid: 18324|app: 0|req: 2/3] 120.85.87.179 () {40 vars in 657 bytes} [Thu Mar 14 15:01:22 2019] GET /navbar-top.css => generated 2133 bytes in 3 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18324|app: 0|req: 3/4] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 15:02:32 2019] GET / => generated 5856 bytes in 11 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /navbar-top.css
+[pid: 18322|app: 0|req: 2/5] 120.85.87.179 () {40 vars in 657 bytes} [Thu Mar 14 15:02:32 2019] GET /navbar-top.css => generated 2133 bytes in 6 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18324|app: 0|req: 4/6] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 15:03:25 2019] GET / => generated 5856 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /navbar-top.css
+[pid: 18315|app: 0|req: 1/7] 120.85.87.179 () {40 vars in 657 bytes} [Thu Mar 14 15:03:25 2019] GET /navbar-top.css => generated 2133 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18324|app: 0|req: 5/8] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 15:04:32 2019] GET / => generated 5856 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /navbar-top.css
+[pid: 18317|app: 0|req: 1/9] 120.85.87.179 () {40 vars in 657 bytes} [Thu Mar 14 15:04:32 2019] GET /navbar-top.css => generated 2133 bytes in 12 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
+[pid: 18324|app: 0|req: 6/10] 120.85.87.179 () {42 vars in 724 bytes} [Thu Mar 14 15:05:24 2019] GET / => generated 5856 bytes in 1 msecs (HTTP/1.1 200) 3 headers in 110 bytes (1 switches on core 0)
+Not Found: /navbar-top.css
+[pid: 18307|app: 0|req: 1/11] 120.85.87.179 () {40 vars in 657 bytes} [Thu Mar 14 15:05:24 2019] GET /navbar-top.css => generated 2133 bytes in 13 msecs (HTTP/1.1 404) 3 headers in 102 bytes (1 switches on core 0)
